@@ -1,0 +1,65 @@
+body {
+  background-image: url(vintage-wooden-knitting-needles-yarn-woman-s-hands.jpg);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(228, 221, 207, 0.7);
+  width: 500px;
+  margin: auto;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  border: 3px;
+}
+
+h1 {
+  color: #a33139;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #a33139;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(66, 63, 70);
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: white;
+}
+
+#save-btn {
+  color: rgb(228, 221, 207);
+  background: #a33139;
+}
+
+#save-el {
+  color: #a33139;
+  font-size: 24px;
+  font-weight: bold;
+}
